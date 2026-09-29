@@ -6,20 +6,20 @@
 }
 
 #mi_boton2{
-    background-color:rgb(255, 253, 253)3) ; /*Color de fondo*/
+    background-color:rgb(255, 253, 253)3 ; /*Color de fondo*/
     color:red; /* Red */
     font-size: 16px;
     border-radius: 8px;
 }
 
 #mi_boton3{
-    background-color:rgb(0, 0, 0)3) ; /*Color de fondo*/
+    background-color:rgb(0, 0, 0); /*Color de fondo*/
     color:violet; /* Violet */
     font-size: 16px;
     border-radius: 8px;
 }
 
-button: haver {
+button:haver {
     background-color: blue;
     cursor: pointer;
     
