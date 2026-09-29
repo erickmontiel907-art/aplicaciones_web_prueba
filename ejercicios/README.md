@@ -10,3 +10,4 @@ https://developer.mozilla.org/en-US/docs/guides/Quirks_mode_and_standards_mode)|
 |Valor|Valor|
 
 https://fonts.google.com/icons
+|2|ejercicio_02|HTML y CSS|
