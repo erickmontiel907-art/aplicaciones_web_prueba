@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", ()=>{
     const boton = document.getElementById("mi_boton");
 
-    if (boton){
         boton.addEventListener('click'), ()=> {
             boton.textContent = "Si funciona";
             boton.style.backgroundColor = "blue";
