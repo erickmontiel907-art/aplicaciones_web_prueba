@@ -1,2 +1,4 @@
-gunicorn==26.2.0
-web-py==0.76
+*.pyc
+__pychache__/
+.venv/
+.env
