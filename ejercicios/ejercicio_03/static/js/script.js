@@ -1,7 +1,7 @@
 // Estructura de una funcion base
 function sumar(numero1, numero2){
         return numero1 + numero2;
-}
+};
 
 //Estructura con flecha
 const restar = (numero1, numero2) => numero1 - numero2;
@@ -32,3 +32,19 @@ const persona = {
 
 //Uso de consola para depuración
 console.log(persona);
+console.log(texto);
+console.log(numero);
+console.log("Boleano: ", boleano);
+console.log("Nulo: ", nulos);
+console.log("sumar: ",sumar(5,8));
+console.log("restar: ",restar(4,3));
+
+const parrafos = document.getElementsByTagName("p");
+
+console.log("Parrafo 0: ",parrafos);
+
+const parrafo2 = document.getElementById("parrafo2");
+
+console.log("Parrafo 2: ",parrafo2.textContent);
+
+parrafo2.textContent = "Jaja modificado desde javascript";
