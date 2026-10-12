@@ -1,6 +1,14 @@
+:root {
+  --color-primario: #BBF144;
+  --color-secundario: #ED369D;
+  --color-de-fondo: #2193D4;
+  --color-4: #2978ED;
+  --color-5: #DA1594;
+}
+
 #mi_boton{
-    background-color:rgb(81, 0, 173) ; /*Color de fondo*/
-    color:cyan; /* Cyan */
+    background-color:(--color-primario) ; /*Color de fondo*/
+    color:(--color-secundario);
     font-size: 16px;
     border-radius: 8px;
 }
