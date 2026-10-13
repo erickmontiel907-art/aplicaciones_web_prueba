@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-    <meta chasrset="UTF-8"/>
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-with, initial-scale=1.0">
     <link rel="icon" type="images/png" href="static/images/favicon.png"/>
     <link rel="stylesheet" href="static/css/style.css"/>
@@ -9,13 +9,23 @@
     </head>
     <body>
         <h1>Calculadora con javascript y html</h1>
-        <label for id="numero1">Ingresa el primer numero</label>
+        <label for="numero1">Ingresa el primer numero</label>
         <br>
         <input type="number" id="numero1">
         <br>
-        <label for id="numero1">Ingresa el segundo número</label>
+        <label for="numero1">Ingresa el segundo número</label>
         <br>
         <input type="number" id="numero2">
+        <br>
+        <label for="sumar">Resultado</label>
+        <br>
+        <input type="number" readonly id="resultado">
+        <br>
+        <button id="sumar">Sumar</button>
+        <button id="restar">Restar</button>
+        <button id="multiplicar">Multiplicar</button>
+        <button id="dividir">Dividir</button>
+        <script src="static/js/script.js"></script>
     </body>
 
 </html>
