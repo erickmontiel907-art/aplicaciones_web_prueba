@@ -7,4 +7,4 @@ document.addEventListener("DOMContentLoaded", ()=>{
             console.log("Clic:", new Date().toLocaleDateString());
             }
         }
-    });
+    );
