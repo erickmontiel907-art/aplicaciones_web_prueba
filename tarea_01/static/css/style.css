@@ -1,7 +1,39 @@
-:root {
-    --color_primario: #66192a;
-    --color-secundario: #75AE57;
-    --color-de-fondo: #6D71CF;
-    --color-4: #3d4999;
-    --color-5: #6927Cc;
+/* contenedor*/
+.formulario {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px auto; /* centra en la pantalla*/
+    border-radius: 8px;
+}
+
+/*etiquetas*/
+.formulario label{
+    font-size: 14 px;
+    color:black;
+}
+
+/*input*/
+.forumulario input{
+    padding: 8px;
+    font-size: 14px;
+    border: 1px #3333;
+    border-radius: 8px;
+}
+
+/*button*/
+.forumulario button{
+    padding: 10px;
+    font-size: 14px;
+    color:black;
+    background-color: aqua;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* efecto button*/
+.formulario button:hover{
+    background-color:blueviolet,
+
 }
