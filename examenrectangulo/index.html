@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/calculadora/static/css/style.css"/>
+    <title>Calculadora de Perímetro de un Rectángulo</title>
+    </head>
+    <body>
+        <div id="contenedor" class="formulario">
+        <h1>Perímetro de un Rectángulo</h1>
+       
+        <label for="base">Ingresa la base</label>
+        <br>
+        <input type="number" id="base">
+        <br>
+       
+        <label for="altura">Ingresa la altura</label>
+        <br>
+        <input type="number" id="altura">
+        <br>
+       
+        <label for="resultado">Resultado</label>
+        <br>
+        <input type="number" id="resultado" readonly>
+        <br>
+       
+        <button id="calcular" onclick="calcularPerimetro()">Calcular Perímetro</button>
+
+        <script src="static/js/script.js"></script>
+        </div>
+    </body>
+</html>
